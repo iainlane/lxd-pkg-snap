@@ -1,5 +1,5 @@
 name: lxd
-version: "3.0.0.beta3"
+version: "3.0.0.beta4"
 grade: stable
 summary: LXD - the container lightervisor
 description: |-
@@ -397,7 +397,7 @@ parts:
   lxd:
     source: https://github.com/lxc/lxd
     source-type: git
-    source-tag: lxd-3.0.0.beta3
+    source-tag: lxd-3.0.0.beta4
     prepare: |-
       set -ex
 
