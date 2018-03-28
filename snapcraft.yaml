@@ -270,7 +270,7 @@ parts:
   lxc:
     source: https://github.com/lxc/lxc
     source-type: git
-    source-tag: lxc-3.0.0.beta4
+    source-tag: lxc-3.0.0
     prepare: |-
       set -ex
 
