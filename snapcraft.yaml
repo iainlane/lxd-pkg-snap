@@ -1065,7 +1065,8 @@ parts:
       sed -i "s#\${LXC_ROOTFS_MOUNT}/var/snap/lxd/common/var/lib/lxcfs/#\${LXC_ROOTFS_MOUNT}/var/lib/lxcfs/#g" $SNAPCRAFT_PART_INSTALL/snap/lxd/current/lxcfs/lxc.mount.hook
 
   lxd:
-    source: https://github.com/lxc/lxd
+    source: https://github.com/iainlane/lxd
+    source-branch: no-proxy-range
     source-type: git
     after:
       - lxc
